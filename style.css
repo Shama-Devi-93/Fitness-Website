@@ -1,0 +1,229 @@
+body{
+     text-align: center;
+
+}
+/* Section title */
+.navbar{
+  padding: 0 0 3rem 0;
+  top: 0px;
+  background: transparent:important;
+}
+.navbar-brand{
+  margin-left: 150px;
+}
+.navbar-nav{
+margin-right: 30px;
+}
+/* li{
+  padding-left: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 6px white;
+} */
+.pic{
+  width: 100%;
+}
+/* for navigation bar on scrolling */
+.blurrycontent  {
+  padding: 1rem ;
+	top: 0; left: 0;
+	width: 100%;
+	height: 5rem;
+	overflow: visible;
+	position: fixed;
+	/* filter: blur(1.5px); */
+  background-color: rgba(13,7,25,0.9);
+  z-index: 16;
+
+
+}
+.blurrycontent .navbar .nav-link{
+  margin-bottom: 10px;
+
+
+}
+.blurrycontent .navbar{
+  height: 9.8rem;
+}
+.blurrycontent .navbar .navbar-brand{
+  margin-top: 15px;
+}
+
+/* for method section */
+
+#methods{
+  padding:5%;
+  background-color: #ffa5a5;
+}
+.card{
+    box-shadow: 0 0px 10px 0 #e8e8e8;
+     background-color: #ffcbcb;
+    transition: 0.3s;
+
+ }
+
+ /* for how it works section */
+ #Works{
+   background-color: #f5b461    ;
+   padding: 5px;
+   background-image: url("footer.jpg");}
+
+ .working{
+ width: 50%;
+ margin: 100px auto 50px 200px;
+ text-align: left;
+ position: relative;
+
+
+}
+.working-gym{
+width: 50%;
+margin: 100px auto 100px 100px;
+text-align: left;
+position: relative;
+
+
+}
+
+.gyming{
+  float:left;
+  margin-right: 25px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: white;
+}
+.yoga{
+  float: left;
+  margin-right: 50px;
+  font-size: 3rem;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+.mad{
+  font-family: 'Satisfy', cursive;
+  font-weight: 200;
+  font-size: 2rem;
+  color: black;
+}
+
+/* footer Section */
+footer{
+  padding: 30px;
+  background-color: rgba(13,7,25,0.9);
+  text-align: center;
+}
+.row{
+  margin-top: 40px;
+}
+h3{
+  color: white;
+}
+.foot{
+  color: white;
+}
+.footer-icons{
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.Copyright{
+  margin-bottom: 40px;
+  margin-top:  50px;
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+/*----  Main Style  ----*/
+#cards_landscape_wrap-2{
+  text-align: center;
+  /* background: #F7F7F7; */
+}
+#cards_landscape_wrap-2 .container{
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+#cards_landscape_wrap-2 a{
+  text-decoration: none;
+  outline: none;
+}
+#cards_landscape_wrap-2 .card-flyer {
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box{
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box img{
+  -webkit-transition:all .9s ease;
+  -moz-transition:all .9s ease;
+  -o-transition:all .9s ease;
+  -ms-transition:all .9s ease;
+  width: 100%;
+  height: 200px;
+}
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+  opacity: 0.7;
+  -webkit-transform:scale(1.15);
+  -moz-transform:scale(1.15);
+  -ms-transform:scale(1.15);
+  -o-transform:scale(1.15);
+  transform:scale(1.15);
+}
+#cards_landscape_wrap-2 .card-flyer .text-box{
+  text-align: center;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+  padding: 30px 18px;
+}
+#cards_landscape_wrap-2 .card-flyer{
+  background: #FFFFFF;
+  margin-top: 50px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+}
+#cards_landscape_wrap-2 .card-flyer:hover{
+  background: #fff;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin-top: 50px;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box h6{
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Roboto Black', sans-serif;
+  letter-spacing: 1px;
+  color: #00acc1;
+}
+
+.read{
+  border-radius: 20px;
+  background-color: #9fd8df;
+  margin-top: 4%;
+}
+.read:hover{
+  background-color: #f5c0c0;
+}
+.read a{
+  color: black;
+}
+
